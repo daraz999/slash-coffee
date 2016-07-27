@@ -5,7 +5,7 @@ require './config/i18n'
 require './config/environments'
 require './app/commands'
 
-post '/coffee' do
+post '/food' do
   content_type :json
 
   if params['token'] == ENV['SLACK_VERIFICATION_TOKEN']
@@ -28,5 +28,5 @@ get '/authed' do
   uri.query = URI.encode_www_form(uri_params)
   Net::HTTP.get_response(uri)
 
-  redirect 'http://coffee.agelber.com/authed/'
+  redirect 'http://food.agelber.com/authed/'
 end

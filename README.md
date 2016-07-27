@@ -1,12 +1,12 @@
-# /coffee
+# /food
 
-/coffee is a slash command to organize coffee runs through slack.
+/food is a slash command to organize food runs through slack.
 
 Each run is created on a channel level, meaning that different channels can have separate runs simultaneously (if you have a global team, for example).
 
 ## Installation
 
-Visit [coffee.agelber.com](http://coffee.agelber.com) and you can follow the instructions from there.
+Visit [food.agelber.com](http://food.agelber.com) and you can follow the instructions from there.
 
 If you don't want to install this through the Slack app directory, you could deploy it on your own and add a custom integration through the Slack admin panel.
 
@@ -14,34 +14,34 @@ If you don't want to install this through the Slack app directory, you could dep
 
 There are 5 commands to know:
 
-#### `/coffee run [time]`
+#### `/food run [time]`
 
-Start a coffee run!  
-example: `/coffee run 15`
+Start a food run!  
+example: `/food run 15`
 
-#### `/coffee list`
+#### `/food list`
 
 Show the list of orders for the current run.  
-example: `/coffee list`
+example: `/food list`
 
-#### `/coffee order [item]`
+#### `/food order [item]`
 
 Order something from the current run.  
-example: `/coffee order small cappuccino`
+example: `/food order small cappuccino`
 
-#### `/coffee here`
+#### `/food here`
 
-Let everyone know that the coffee is here!
+Let everyone know that the food is here!
 This is needed so that others can start new runs later on.  
-example: `/coffee here`
+example: `/food here`
 
-#### `/coffee help`
+#### `/food help`
 
 Show a help message detailing the available commands.  
-example: `/coffee help`
+example: `/food help`
 
 ## Contributing
 
 Feel free to fork this repository, add anything you like and open a pull request!
 
-:coffee::runner:
+:food::runner:

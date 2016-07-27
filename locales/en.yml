@@ -1,46 +1,46 @@
 en:
   commands:
     start:
-      already_on_run: "%{name} is already on a run! If that's not true, tell them to type `/coffee here` to signal that they came back."
-      success: "Hey! %{name} is going on a coffee run! :coffee:\nLet them know what you want with `/coffee order [item]`."
-      success_with_time: "Hey! %{name} is going on a coffee run in %{time} minutes! :coffee:\nLet them know what you want with `/coffee order [item]`."
+      already_on_run: "%{name} is already on a run! If that's not true, tell them to type `/food here` to signal that they came back."
+      success: "Hey! %{name} is going on a food run! :food:\nLet them know what you want with `/food order [item]`."
+      success_with_time: "Hey! %{name} is going on a food run in %{time} minutes! :food:\nLet them know what you want with `/food order [item]`."
     order:
-      no_run: "No one is on a run now, are you in the right channel?\nAlternatively, use `/coffee run` to go yourself!"
-      order_missing: "%{name} needs to know what you want! Try `/coffee order cappuccino` for example."
+      no_run: "No one is on a run now, are you in the right channel?\nAlternatively, use `/food run` to go yourself!"
+      order_missing: "%{name} needs to know what you want! Try `/food order cappuccino` for example."
       success: "Great! Your %{item} was added to the list."
     list:
-      no_run: "No one is on a run now, are you in the right channel?\nAlternatively, use `/coffee run` to go yourself!"
+      no_run: "No one is on a run now, are you in the right channel?\nAlternatively, use `/food run` to go yourself!"
       no_orders: 'No one has ordered anything yet.'
       success_header: 'This is the list for the current run:'
       success_item: "%{index}. *%{item}* for %{name}"
     here:
       no_run: "Seems like you weren't on a run, are you in the right channel? :confused:"
       success: "Welcome back! Enjoy the rest of your day."
-      success_with_tags: "%{tags}: %{name} is here with coffee! Grab it while it's hot! :coffee:"
+      success_with_tags: "%{tags}: %{name} is here with food! Grab it while it's hot! :food:"
     help: |
-      `/coffee` is a slash command to organize coffee runs.
+      `/food` is a slash command to organize food runs.
 
         Here are the available commands:
 
-        `/coffee run [time]`
-          Start a coffee run!
+        `/food run [time]`
+          Start a food run!
           Optionally, anounce in how long you'll be leaving.
-          example: /coffee run 15
+          example: /food run 15
 
-        `/coffee list`
+        `/food list`
           Show the list of orders for the current run.
-          example: /coffee list
+          example: /food list
 
-        `/coffee order [item]`
+        `/food order [item]`
           Order something from the current run.
-          example: /coffee order small cappuccino
+          example: /food order small cappuccino
 
-        `/coffee here`
-          Let everyone know that the coffee is here!
-          example: /coffee here
+        `/food here`
+          Let everyone know that the food is here!
+          example: /food here
 
-        `/coffee help`
+        `/food help`
           Show this help message.
-          example: /coffee help
+          example: /food help
 
       Enjoy!
